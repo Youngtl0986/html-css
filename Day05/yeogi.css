@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-weight: bold;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: ;
+  font-size: medium;
+}
+.photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}

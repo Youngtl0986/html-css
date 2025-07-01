@@ -1,0 +1,51 @@
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.subtitle {
+  font-size: 16px;
+  color: #efefef;
+  margin-bottom: 15px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  border-radius: 6px;
+  background-size: cover;
+  padding: 10px 20px 10px 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bg1 {
+  background-image: url("ben-cymhxH1I_Dk-unsplash.jpg");
+}
+.bg2 {
+  background-image: url("ben-cymhxH1I_Dk-unsplash.jpg");
+}
+.bg3 {
+  background-image: url("ben-cymhxH1I_Dk-unsplash.jpg");
+}
+.bg4 {
+  background-image: url("ben-cymhxH1I_Dk-unsplash.jpg");
+}
+.category {
+  color: black;
+  font-size: 12px;
+}
+.name {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+.info {
+  color: black;
+}
