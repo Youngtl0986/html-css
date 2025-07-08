@@ -1,0 +1,93 @@
+.third {
+  background-color: #efefef;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contents {
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+}
+.third > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.third > .contents > h6 {
+  font-size: 18px;
+  color: #757575;
+}
+
+.third > .contents > h2 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.form {
+  width: 400px;
+  height: 500px;
+  background-image: url(friends.jpeg);
+  background-size: cover;
+  border-radius: 15px;
+}
+.form2 {
+  width: 400px;
+  height: 500px;
+  background-image: url(sport.jpg);
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.container > .form > h6 {
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+  line-height: 2;
+}
+
+.container > .form2 > h6 {
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+  line-height: 2;
+}
+
+.container > .form > h3 {
+  text-align: center;
+  color: white;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.container > .form2 > h3 {
+  text-align: center;
+  color: white;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+  padding: 14px 16px;
+  font-weight: bold;
+  color: gray;
+  margin-left: 150px;
+  margin-top: 30px;
+}

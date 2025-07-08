@@ -1,0 +1,26 @@
+.second {
+  background-color: #efefef;
+  padding: 100px 0px;
+}
+
+.second > .list {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.second > .list > h3 {
+  text-align: center;
+  color: gray;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 30px;
+  font-family: GowunDodum-Regular;
+}
+
+.dot {
+  margin-top: 50px;
+}
+
+.dot > span {
+  color: black;
+}

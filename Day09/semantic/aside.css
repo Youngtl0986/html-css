@@ -1,0 +1,16 @@
+aside > button {
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+
+  background-color: #f15966;
+  color: white;
+  padding: 16px 14px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+}
+
+aside > button:hover {
+  background-color: #dc4753;
+}
