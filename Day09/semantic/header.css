@@ -6,6 +6,7 @@ header {
   width: 100%;
   background-color: white;
   position: relative;
+  z-index: 10;
 }
 
 nav {
@@ -16,6 +17,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 12px;
 }
 
 .links {
@@ -37,4 +39,13 @@ nav {
 
 .links > li:hover {
   background-color: beige;
+}
+
+@media screen and (max-width: 760px) {
+  .links {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
 }

@@ -1,0 +1,23 @@
+.first {
+  height: 100vh;
+  background-image: url(../image/band.jpg);
+  opacity: 10;
+  object-fit: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.first > .contents > h2 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 150px;
+  font-family: "Cafe24Ohsquare";
+}

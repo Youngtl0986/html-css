@@ -1,0 +1,21 @@
+.second {
+}
+
+.second > .album {
+  width: 100%;
+}
+.photo {
+  width: 100px;
+  height: 100px;
+}
+.sun {
+  background-image: url(../image/sun.jpg);
+}
+
+.cure {
+  background-image: url(../image/cure.jpg);
+}
+
+.jaol {
+  background-image: url(../image/moon.jpg);
+}

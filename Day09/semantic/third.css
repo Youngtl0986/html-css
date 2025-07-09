@@ -37,36 +37,36 @@
   margin-top: 50px;
   gap: 20px;
 }
-.form {
+.firstimg {
   width: 400px;
   height: 500px;
-  background-image: url(friends.jpeg);
+  background-image: url(style1.jpg);
   background-size: cover;
   border-radius: 15px;
 }
-.form2 {
+.secondimg {
   width: 400px;
   height: 500px;
-  background-image: url(sport.jpg);
+  background-image: url(style2.jpg);
   background-size: cover;
   border-radius: 15px;
 }
 
-.container > .form > h6 {
+.container > .firstimg > h6 {
   text-align: center;
   color: white;
   margin-top: 200px;
   line-height: 2;
 }
 
-.container > .form2 > h6 {
+.container > .secondimg > h6 {
   text-align: center;
   color: white;
   margin-top: 200px;
   line-height: 2;
 }
 
-.container > .form > h3 {
+.container > .firstimg > h3 {
   text-align: center;
   color: white;
   line-height: 2;
@@ -74,7 +74,7 @@
   font-size: 25px;
 }
 
-.container > .form2 > h3 {
+.container > .secondimg > h3 {
   text-align: center;
   color: white;
   line-height: 2;
@@ -90,4 +90,15 @@ button {
   color: gray;
   margin-left: 150px;
   margin-top: 30px;
+}
+
+@media screen and (max-width: 760px) {
+  .third > .contents {
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .third > .container {
+    flex-direction: column;
+  }
 }

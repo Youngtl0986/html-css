@@ -24,3 +24,9 @@
 .dot > span {
   color: black;
 }
+
+@media screen and (max-width: 760px) {
+  .second > .list > h3 {
+    font-size: 20px;
+  }
+}
