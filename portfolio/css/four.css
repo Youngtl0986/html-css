@@ -1,0 +1,73 @@
+.four {
+  background-color: #dce3e8;
+  font-family: "Cafe24Ohsquare";
+}
+
+.artist {
+  padding-top: 100px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+}
+
+.com {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  gap: 100px;
+}
+
+.pose {
+  width: 250px;
+  height: 250px;
+
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 9999px;
+  padding: 90px;
+  font-size: 20px;
+}
+
+.pose > h4 {
+  text-align: center;
+  padding-bottom: 28px;
+}
+
+.pose > h6 {
+  text-align: center;
+}
+
+.one {
+  background-image: url(../image/Brooke\ Cagle.jpg);
+}
+
+.two {
+  background-image: url(../../portfolio/image/Esperanza\ Spalding.jpg);
+}
+
+.three {
+  background-image: url(../image/james\ martin.jpg);
+}
+
+.fou {
+  background-image: url(../image/Rafaella\ Mendes\ Diniz.jpg);
+}
+
+.five {
+  background-image: url(../image/Toa\ Heftiba.jpg);
+}
+
+@media screen and (max-width: 768px) {
+  .com {
+    display: flex;
+    flex-direction: column;
+  }
+}
